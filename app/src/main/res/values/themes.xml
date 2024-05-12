@@ -8,15 +8,7 @@
 
     <style name="Theme.Taskease_task_management_app" parent="Base.Theme.Taskease_task_management_app" />
 
-    <style name="CardViewStyle" parent="Widget.Material3.CardView.Filled">
-        <item name="shapeAppearanceOverlay">@style/CutShape</item>
-    </style>
-    <style name="CutShape" parent="ShapeAppearance.Material3.MediumComponent">
-        <item name="cornerFamily">cut</item>
-        <item name="cornerSize">12dp</item>
-    </style>
     <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
-        <item name="shapeAppearance">@style/CutShape</item>
         <item name="hintTextColor">@color/black</item>
         <item name="boxStrokeColor">@color/black</item>
         <item name="endIconMode">clear_text</item>
@@ -26,6 +18,7 @@
         <item name="android:textCursorDrawable">@color/black</item>
         <item name="startIconTint">@color/black</item>
     </style>
+    <style name="Widget.App.Button.Fill" parent="Widget.Material3.Button"></style>
     <style name="SearchInputLayout" parent="">
         <item name="endIconMode">clear_text</item>
         <item name="errorIconDrawable">@null</item>
@@ -33,9 +26,6 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textCursorDrawable">@color/black</item>
         <item name="startIconTint">@color/black</item>
-    </style>
-    <style name="Widget.App.Button.Fill" parent="Widget.Material3.Button">
-        <item name="shapeAppearance">@style/CutShape</item>
     </style>
 
     <style name="DialogCustomTheme" parent="Theme.Material3.DayNight.Dialog">
